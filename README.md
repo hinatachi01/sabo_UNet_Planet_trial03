@@ -11,11 +11,6 @@
 ---
 ## 試行状況 / Data Used
 
-<スクリプト> <br>
-* 番号_unet_training.py ... U-Netモデルの定義、学習、モデル出力 <br>
-* 番号_unet_model.h5 ... 出力されたモデル <br>
-* 番号_unet_validation.py ... 未学習画像によるモデルの検証
-
 <試行ごとの入力データ>
 | 番号 | 特徴量 | 入力データ説明 | 使用モデル | 学習枚数 | 学習ログ | 結果 | 実行日 |
 |-----|-----|-----|-----|-----|-----|-----|-----| 
@@ -85,6 +80,6 @@ sabo_UNet_Planet_trial03/
   - test/
     - features/
     - masks/
-- training.py
-- validation.py
-- model.h5
+- training.py ... U-Netモデルの定義、学習、モデル出力
+- validation.py ... 未学習画像によるモデルの検証
+- model.h5 ... 出力されたモデル
