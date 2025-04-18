@@ -75,6 +75,11 @@
 
 ## ディレクトリ構成 / Dataset Structure
 
+- original_data/
+- tiles
+  - features/
+  - masks/
+  - タイルづくりのためのpythonファイル×4 
 - dataset/
   - train/     
     - features/
@@ -85,3 +90,8 @@
   - test/
     - features/
     - masks/
+- predict_masks
+
+- training.py
+- validation.py
+- model.h5
