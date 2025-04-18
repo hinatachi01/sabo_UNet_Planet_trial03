@@ -85,9 +85,6 @@ sabo_UNet_Planet_trial03/
   - test/
     - features/
     - masks/
-- predict_masks
-      - file
-      - file
 - training.py
 - validation.py
 - model.h5
