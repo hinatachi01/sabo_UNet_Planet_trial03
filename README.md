@@ -17,10 +17,10 @@
 ③ 番号_unet_validation.py ... 未学習画像によるモデルの検証
 
 <試行ごとの入力データ>
-| 番号 | 使用モデル | 特徴量 | 学習データ | 学習枚数 | 学習ログ | 評価 | 実行日 |
+| 番号 | 特徴量 | 入力データ説明 | 使用モデル | 学習枚数 | 学習ログ | 評価 | 実行日 |
 |-----|-----|-----|-----|-----|-----|-----|-----| 
-| 01 | model A | Planet 4bands (/10,000) | |train <br> val <br> test 2| |  ・崩壊地の輪郭を捉えられている <br> ・閾値の調節は必要 | April 17 |
-| 02 | model A | Planet 4bands (/10,000) | ・値0-1の確認 <br> ・崩壊地と教えている所が本当に崩壊地か確認 |train <br> val <br> test 2| | | April 18 |
+| 01 | Planet 4bands (/10,000) | | model A | train <br> val <br> test 2 | |  ・崩壊地の輪郭を捉えられている <br> ・閾値の調節は必要 | April 17 |
+| 02 | Planet 4bands (/10,000) | ・値0-1の確認 <br> ・崩壊地と教えている所が本当に崩壊地か確認 | model A |train <br> val <br> test 2| | | April 18 |
 
 <評価指標>
 | 番号 | 崩壊地判断の確率閾値 | filename | precision (誤抽出) | recall (見逃し) | f1 | iou |
