@@ -70,7 +70,7 @@
 sabo_UNet_Planet_trial03/
 
 - original_data/
-- tiles
+- tiles/
   - features/
   - masks/
   - タイル作成のpythonファイル×2
@@ -86,7 +86,8 @@ sabo_UNet_Planet_trial03/
     - features/
     - masks/
 - predict_masks
-
+      - file
+      - file
 - training.py
 - validation.py
 - model.h5
