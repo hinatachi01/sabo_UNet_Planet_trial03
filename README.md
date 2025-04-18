@@ -11,6 +11,7 @@
 ---
 ## 試行状況 / Data Used
 
+<スクリプト> <br>
 ① 番号_unet_training.py ... U-Netモデルの定義、学習、モデル出力 <br>
 ② 番号_unet_model.h5 ... 出力されたモデル <br>
 ③ 番号_unet_validation.py ... 未学習画像によるモデルの検証
