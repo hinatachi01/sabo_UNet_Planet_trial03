@@ -56,8 +56,6 @@
 | R06  | 能登半島地震         | 石川県 能登地方 |
 | R06  | 能登半島豪雨         | 石川県 能登地方 |
 
-※ 衛星画像は全て、`128 pixel × 128 pixel` のタイルに分割。  
-
 ---
 
 ## ディレクトリ構成 / Dataset Structure
@@ -68,7 +66,7 @@ sabo_UNet_Planet_trial03/
 - tiles/
   - features/
   - masks/
-  - タイル作成のpythonファイル×2
+  - タイル作成 (128 pixel × 128 pixel) のpythonファイル×2
   - タイル作成後に選別するpythonファイル×3
 - dataset/
   - train/     
