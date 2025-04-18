@@ -12,9 +12,9 @@
 ## 試行状況 / Data Used
 
 <スクリプト> <br>
-① 番号_unet_training.py ... U-Netモデルの定義、学習、モデル出力 <br>
-② 番号_unet_model.h5 ... 出力されたモデル <br>
-③ 番号_unet_validation.py ... 未学習画像によるモデルの検証
+* 番号_unet_training.py ... U-Netモデルの定義、学習、モデル出力 <br>
+* 番号_unet_model.h5 ... 出力されたモデル <br>
+* 番号_unet_validation.py ... 未学習画像によるモデルの検証
 
 <試行ごとの入力データ>
 | 番号 | 特徴量 | 入力データ説明 | 使用モデル | 学習枚数 | 学習ログ | 評価 | 実行日 |
