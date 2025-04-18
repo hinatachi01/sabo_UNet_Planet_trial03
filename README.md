@@ -9,7 +9,7 @@
 | 1 | 非崩壊地 |
   
 ---
-## 使用データ / Data Used
+## 試行状況 / Data Used
 
 | ① 番号_unet_training.py | ② 番号_unet_model.h5 | ③ 番号_unet_validation.py |
 |-----|-----|-----|
