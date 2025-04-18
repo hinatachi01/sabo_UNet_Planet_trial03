@@ -57,7 +57,10 @@
 ---
 ## 手順 / Method
 
-
+1) original data ... EPSG:6668にするなどかんたんな調整 <br>
+2) tiles ... 128 pixel x 128 pixel のタイルに分ける (features_splitter.py, masks_splitter.py) <br> 128x128に足りなかった端のタイルを捨てる (remove_tile_rectangle.py) <br> nanで埋め尽くされている端のタイルを捨てる (remove_tile_nan.py) <br> 崩壊地があまりにも含まれていないタイルを捨てる (remove_tile_85percentnotlandslide.py)
+3) dataset ... tileをtrain, validation, testに分ける
+4) モデルに投入
 
 ---
 
