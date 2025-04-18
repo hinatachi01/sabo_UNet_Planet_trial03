@@ -16,7 +16,7 @@
 |-----|-----|-----|-----|-----|-----|-----|-----| 
 | 01 | Planet 4bands (/10,000) | ・1万で割り正規化 | model A | train: 679 <br> val: 102 <br> test: 2 | |  ・崩壊地の輪郭を捉えられている <br> ・閾値の調節は必要 | April 17 |
 | 02 | Planet 4bands (/10,000) | 上記に加え <br> ・値0-1の確認✅ <br> ・崩壊地と教えている所が本当に崩壊地か確認 (未) (基準が難しい) | model A | | | | April 18 |
-| 03 | Planet 4bands (/10,000) <br> DEM (/) <br> slope (/90) | 上記に加え <br> ・値0-1の確認 | model A | train <br> val <br> test: | | | April 18 |
+| 03 | Planet 4bands (/10,000) <br> DEM (/) <br> slope (/90) | 正規化 (値0-1) の確認 | model A | train <br> val <br> test: | | | April 18 |
 
 **<評価>**
 | 番号 | 崩壊地判断の確率閾値 | filename | precision (誤抽出) | recall (見逃し) | f1 | iou |
